@@ -4,6 +4,7 @@ class Solution:
         :type str: str
         :rtype: int
         """
+        #bbb
         y = 0
         str = str.strip()
         if str in ['', '-', '+'] or (len(str)>2 and str[1] in ['-', '+']):
